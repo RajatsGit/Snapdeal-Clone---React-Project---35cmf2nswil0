@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar, Nav, Form, FormControl, Button, Container } from 'react-bootstrap';
 import { FaShoppingCart, FaUser } from 'react-icons/fa';
 import { useDispatch,useSelector } from 'react-redux';
-import logo from '../images/GRABDEAL.png';
+import logo from '../images/Snapdeal-White-Logo.wine.png';
 import { logout } from '../redux/reducer/authorisation';
 
 
