@@ -50,7 +50,7 @@ export default function Login() {
               <Form.Label>Email address</Form.Label>
               <Form.Control
                 type="email"
-                placeholder="Enter email"
+                placeholder="Enter this email: abc@xyz.com to login"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
@@ -60,7 +60,7 @@ export default function Login() {
               <Form.Label>Password</Form.Label>
               <Form.Control
                 type="password"
-                placeholder="Password"
+                placeholder="Password: qwertyuiop to login"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
               />
