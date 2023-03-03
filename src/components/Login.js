@@ -72,6 +72,11 @@ export default function Login() {
           </Form>
         </div>
       </div>
+      <div className="mt-5 text-center">
+    <h6>To login in Snapdeal please fill the email and password as given below</h6>
+      <h4>Email: <span>abc@xyz.com</span></h4>
+      <h4>Password: <span>qwertyuiop</span></h4>
+    </div>
     </div>
   );
 }
